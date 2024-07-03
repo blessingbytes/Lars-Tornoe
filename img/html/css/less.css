@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 100%; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.sofa-one {
+  width: 100%;
+  height: 730px;
+}
+
+.sofa-title {
+  font-size: 20px;
+  margin-top: 22px;
+  margin-bottom: 18px;
+}
+
+.sofa-descrip {
+  font-size: 13px;
+  line-height: 2.5;
+  margin-bottom: 50px;
+}
+
+.sofa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px;
+  gap: 20px;
+}
+
+.sofa * {
+  width: 100%;
+}
+
+.sofas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  gap: 20px;
+}
+
+.sofas * {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  color: black;
+  font-size: 9px;
+  padding: 20px;
+}

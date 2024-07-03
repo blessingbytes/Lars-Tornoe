@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* width: 100%; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.first {
+  width: 100%;
+  height: 700px;
+}
+
+.kizu-title {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.descrip {
+  font-size: 13px;
+  margin-top: -10px;
+  line-height: 2.2;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+  gap: 20px;
+  margin-bottom: 20px;
+  /* width: 100%; */
+}
+
+.grid * {
+  width: 100%;
+  height: 900px;
+  /* background-position: center; */
+}
+
+.image {
+  margin-top: 520px;
+}
+
+.image * {
+  width: 100%;
+  height: 1000px;
+}
+
+.sec-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.sec-flex * {
+  width: 100%;
+  height: 900px;
+}
+
+.flex {
+  display: flex;
+  color: black;
+  font-size: 9px;
+  padding: 20px;
+  margin-top: 500px;
+}

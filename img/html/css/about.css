@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 100%; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.about-info {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-info * {
+  width: 100%;
+}
+
+.image {
+  width: 70%;
+}
+
+.descrip {
+  padding-left: 25px;
+}
+
+.descrip-info {
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.descrip-reward {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 45px;
+}
+
+.address-info {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.email-info {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.phone-num {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.insta-info {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
